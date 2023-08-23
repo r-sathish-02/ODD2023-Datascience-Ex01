@@ -96,5 +96,5 @@ df.info()
 • Non Null After:
 ![ds16](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/2b3c8b13-92f0-456b-bfd9-873b41d83b69)
 
-###Result:
+### Result:
 Thus the given data is read,cleansed and the cleaned data is saved into the file.
