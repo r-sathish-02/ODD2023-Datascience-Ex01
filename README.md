@@ -67,7 +67,7 @@ df.info()
 ```
 ### Output:
 ## Data_set.csv:
-• Non Null Before:
+## • Non Null Before:
 ![ds1](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/f485e304-f183-4fb4-b375-20aeee5b146c)
 ![ds2](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/0c7efb90-08a4-41d7-a820-12cac55bb7e0)
 ![ds3](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/e1c651a7-8cb6-4697-a5f0-01b81a54097d)
@@ -77,13 +77,13 @@ df.info()
 ![ds7](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/102b4502-392a-427c-b75f-c86575e3d461)
 
 
-• Non Null After:
+## • Non Null After:
 ![ds8](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/7f4ef438-95bb-4c16-9ef1-f761518a0f81)
 
 
 ## Loan_data.csv:
 
-• Non Null Before:
+## • Non Null Before:
 ![ds9](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/5bc0a36c-1aea-4508-a8f4-375ef185ad60)
 ![ds10](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/b3df5504-c19c-4ad3-86f4-99f5b6e6211f)
 ![ds11](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/93c3391c-2683-4b40-b667-28589615b589)
@@ -93,7 +93,7 @@ df.info()
 ![ds15](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/c5ee1419-1895-4028-b6c9-a4c410afe4ca)
 
 
-• Non Null After:
+## • Non Null After:
 ![ds16](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/2b3c8b13-92f0-456b-bfd9-873b41d83b69)
 
 ### Result:
