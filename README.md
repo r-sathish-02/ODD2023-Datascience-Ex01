@@ -1,26 +1,21 @@
-# Ex-01_DS_Data_Cleansing
-
-
-## AIM
-To read the given data and perform data cleaning and save the cleaned data to a file. 
-
-# Explanation
+# EX-01 DATA CLEANSING
+### AIM:  
+To read the given data and perform data cleaning and save the cleaned data to a file.   
+### Explanation:
 Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect ,incompleted , irrelevant , duplicated or improperly formatted. 
 Data cleaning is not simply about erasing data ,but rather finding a way to maximize datasets accuracy without necessarily deleting the information. 
-
-# ALGORITHM
-### STEP 1
-Read the given Data
-### STEP 2
-Get the information about the data
-### STEP 3
-Remove the null values from the data
-### STEP 4
-Save the Clean data to the file
-
-# CODE:
-• Data_set.csv :
-```python
+### ALGORITHM
+- STEP 1 : Read the given Data.
+- STEP 2 : Get the information about the data.
+- STEP 3 : Modify the null values from the data by removing or adding data to the records.
+- STEP 4 : Save the Clean data to the file.
+```
+Developed By: SATHISH R
+Resgiter No: 212222230138
+```
+### CODE:
+- Data_set.csv :
+```Python
 import pandas as pd
 import numpy as np
 from google.colab import files
@@ -42,8 +37,8 @@ df['watchers']=df['watchers'].fillna(df['watchers'].mean())
 df.head()
 df.info()
 ```
-• Loan_data.csv :
-```python
+- Loan_data.csv :
+```Python
 import pandas as pd
 import numpy as np
 from google.colab import files
@@ -65,36 +60,44 @@ df['Credit_History']=df['Credit_History'].fillna(df['Credit_History'].min())
 df.head()
 df.info()
 ```
-### Output:
-## Data_set.csv:
-## • Non Null Before:
-![ds1](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/f485e304-f183-4fb4-b375-20aeee5b146c)
-![ds2](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/0c7efb90-08a4-41d7-a820-12cac55bb7e0)
-![ds3](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/e1c651a7-8cb6-4697-a5f0-01b81a54097d)
-![ds4](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/ec5a3caf-f917-4992-a326-76eed325c02d)
-![ds5](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/b8eb40d7-df12-4e0b-a034-8af613c0afd6)
-![ds6](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/f22c222e-e8c0-46ad-a652-75ce1ecf872d)
-![ds7](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/102b4502-392a-427c-b75f-c86575e3d461)
+## Output:
+#### Data_set.csv:
+- Non Null Before:
+![Screenshot 2023-08-20 123744](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/ad3b2517-f2e6-4d96-87dc-49810fe0a36c)
 
+![Screenshot 2023-08-20 123828](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/af56a5e6-27a8-4380-b012-2d9e20a983df)
 
-## • Non Null After:
-![ds8](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/7f4ef438-95bb-4c16-9ef1-f761518a0f81)
+![Screenshot 2023-08-20 123916](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/37d0a314-ee3b-4d39-addd-8cb6795f7623)
 
+![Screenshot 2023-08-20 123948](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/9e0e6cc2-f09d-4898-9cf9-76790c818b7e)
 
-## Loan_data.csv:
+![Screenshot 2023-08-20 124011](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/ffaace5a-4a9d-47a0-b00f-6f63d540143e)
 
-## • Non Null Before:
-![ds9](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/5bc0a36c-1aea-4508-a8f4-375ef185ad60)
-![ds10](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/b3df5504-c19c-4ad3-86f4-99f5b6e6211f)
-![ds11](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/93c3391c-2683-4b40-b667-28589615b589)
-![ds12](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/f935d719-7835-4887-9d5e-49a5e1e480c2)
-![ds13](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/7d118494-2d13-40a3-8ea5-107ab1beeafd)
-![ds14](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/8fcabc4b-90bb-477c-a9b0-e91b8858bc0d)
-![ds15](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/c5ee1419-1895-4028-b6c9-a4c410afe4ca)
+![Screenshot 2023-08-20 124036](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/837aeda2-4ca6-489c-b23c-fc5c1ef8c1c6)
 
+![Screenshot 2023-08-20 124109](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/775e4f8d-0748-4cd2-80cd-989947c8828f)
+<br>
+- Non Null After: <br>
+<img height=25% width=60% src="https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/af870054-b99f-4fd3-af78-c861f5ca3c1d">
 
-## • Non Null After:
-![ds16](https://github.com/r-sathish-02/ODD2023-Datascience-Ex01/assets/118787261/2b3c8b13-92f0-456b-bfd9-873b41d83b69)
+#### Loan_data.csv:
+- Non Null Before:
+![Screenshot 2023-08-20 125703](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/e0607ba4-f472-447e-9c9b-33abe5e213b2)
+
+![Screenshot 2023-08-20 125846](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/57b6ec7b-9706-4f74-831a-f857cc6d0b64)
+
+![Screenshot 2023-08-20 130051](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/430771e5-e43c-4907-99c6-befaefb7433c)  
+
+![Screenshot 2023-08-20 130124](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/dd98d932-ba16-4d00-8c37-50d1b517ce5c)
+
+![Screenshot 2023-08-20 130244](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/9ada9191-d888-4e3d-bc6f-8852791081b8)
+
+![Screenshot 2023-08-20 130311](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/6653be15-acd1-4d58-a4bd-7e0a32e880bd)
+
+![Screenshot 2023-08-20 130338](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/608c0170-ba81-4b50-af26-c5df77c74452)
+<br>
+- Non Null After: <br>
+<img height=25% width=60% src="https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/231e324c-6a95-41ed-bc8d-d3c48d4354b9">
 
 ### Result:
 Thus the given data is read,cleansed and the cleaned data is saved into the file.
